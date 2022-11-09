@@ -17,12 +17,12 @@
             crossorigin="anonymous">
         <style>
             .banner-image {
-            background-image: url(bg.webp);
+            background-image: url(asset/bg-1.png);
             background-size: cover;
             }
 
             .home-image {
-            background-image: url(bg.webp);
+            background-image: url(asset/bg-2.png);
             background-size: cover;
             }
         </style>
@@ -74,7 +74,8 @@
                                 type="search"
                                 placeholder="" aria-label="Search">
                             <button class="btn btn-dark" type="submit">
-                                <img src="search_icon.png" alt="" width="30"
+                                <img src="asset/search_icon.png" alt=""
+                                    width="30"
                                     height="30">
                             </button>
                         </form>
@@ -87,10 +88,22 @@
             <div class="banner-image w-100 vh-100 d-flex justify-content-center
                 align-items-center">
                 <div class="content text-center">
-                    <h1>PSYCHOCARE</h1>
-                    <p>Selamat datang di Website Psychocare! Tampat dimana
-                        kalian bisa belajar dan berkonsultasi mengenai mental
-                        health.</p>
+                    <div class="container col-xxl-8 px-4 py-5">
+                        <div class="row flex-lg-row-reverse align-items-center
+                            g-5
+                            py-5">
+                            <div class="col-10 col-sm-8 col-lg-6">
+                                <img src="asset/img-home.png" class="d-block
+                                    mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                                    width="700" height="700" loading="lazy">
+                            </div>
+                            <div class="col-lg-6">
+                                <h1 class="display-5 fw-bold lh-1 mb-3">Psychocare</h1>
+                                <p class="lead">Website mengenai informasi dan
+                                    konsultasi Mental Health.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- BANNER IMAGE END -->
@@ -98,31 +111,177 @@
             <!-- HOME START -->
             <div class="home-image w-100 vh-100 d-flex justify-content-center
                 align-items-center">
-                <div class="image-home mx-4">
-                    <img src="search_icon.png" class="img-thumbnail" alt="...">
-                </div>
-                <div class="card w-20 h-50 mx-4" style="background-color:
-                    transparent;">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Selamat datang di personal
-                            website saya</h5>
-                        <p class="card-text">Semua informasi dan kegiatan yang
-                            saya lakukan ada pada website ini.</p>
-                        <a href="#" class="btn btn-dark">More Information</a>
+                <div class="card" style="width: 70%;">
+                    <div class="px-4 py-5 my-5 text-center">
+                        <img class="d-block mx-auto mb-4"
+                            src="asset/img-facilities.png"
+                            alt=""
+                            width="20%" height="20%">
+                        <h1 class="display-5 fw-bold">Psychocare Facilities</h1>
+                        <div class="col-lg-6 mx-auto">
+                            <p class="lead mb-4">Website yang dibentuk khusus
+                                untuk memberikan layanan informasi seputar
+                                mental health atau masalah mental. Selain
+                                memberikan informasi, pada website ini
+                                pengguna dapat berkonsultasi mengenai
+                                kesehatan mental.</p>
+                            <div class="d-grid gap-2 d-sm-flex
+                                justify-content-sm-center">
+                                <button type="button" class="btn btn-dark
+                                    btn-lg
+                                    px-4 gap-3">About</button>
+                                <button type="button" class="btn
+                                    btn-outline-secondary btn-lg px-4">Contact</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- HOME END -->
 
             <!-- PROFILE KONSULTAN -->
-            <div class="card my-5 mx-auto" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the
-                        card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div id="carouselExampleControls" class="carousel"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="..."
+                                    class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 1</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="..."
+                                    class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 2</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="..."
+                                    class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 3</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="..."
+                                    class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 4</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="..."
+                                    class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 5</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="..."
+                                    class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 6</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="..."
+                                    class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 7</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="..."
+                                    class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 8</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="..."
+                                    class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 9</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
             <!-- PROFILE KONSULTAN END -->
 
