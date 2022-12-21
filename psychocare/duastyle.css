@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+}
+
+.ul-hover {
+    list-style: none;
+}
+.li-hover{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.li-hover .a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+.li-hover::after {
+    content: '';
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    transition: width .5s;
+}
+
+.li-hover a:hover {
+    color: rgb(45,168,240);
+}
+
+.li-hover:hover::after {
+    width: 100%;
+    background-color: black;
+}
+
+.divfont {
+    font-family: 'Circular Std', sans-serif;
+}
+
+.navbar {
+    height: 100px;
+    box-shadow: 0px 0.5px 0px rgb(0, 0, 0);
+}
+
+#contact {
+    background-color: #336b53;
+    margin-top: 150px;
+}
+
+#contact .container {
+    padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+#contact h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 19px 0 14px 0;
+}
+
+.kontak a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 18px;
+    width: 332px;
+    display: inline-block;
+}
+
+.linkthriftshop {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.card-contact {
+    width: 100%;
+    height: 445px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 52px 48px;
+}
+
+.card-contact h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #BFBDB6;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.form-control {
+    height: 75px;
+    background: #C4C4C4;
+    border-radius: 0;
+}
+
+.form-floating label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #717171;
+}
+
+.button-contact {
+    width: 100%;
+    height: 75px;
+    background: #336b53;
+}
